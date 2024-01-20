@@ -1,0 +1,64 @@
+/* 
+* Cleared for use throughout the application, to make your formik errors appear uniform
+* add the class of "formik-form"  to the form within <Formik />
+* and then add the class "formik-has-error" to each <ErrorMessage />
+* the component attribute within <ErrorMessage /> must be "div"
+*/
+form.formik-form div.formik-has-error {
+    margin-top: 0.25rem;
+    color: red;
+  }
+  
+  
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    /* color: white; */
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  form.formik-form div.formik-has-error {
+    margin-top: 0.25rem;
+    color: red;
+  }
+  .navBar-logo-image, 
+  .navBar-avatar-image, 
+  .navBar-notification-icon, 
+  .navBar-dropdown-icon {
+    max-width: 100%; 
+    height: auto; 
+  }
+  .aboutus-rectangle {
+    width: 100%;
+    height: auto;
+    background: #010E3A;
+    border-radius: 0;
+  }
+  
+  .aboutus-rectangle h2,
+  .aboutus-rectangle h3 {
+    color: white;
+  }
+  
+  .monefi-green-text {
+    color:#00FFA3
+  }
+  
